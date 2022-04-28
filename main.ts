@@ -1,3 +1,5 @@
+let sus: Sprite = null
+// setting scene
 let opice = sprites.create(img`
     .......................
     ...........f...........
@@ -25,12 +27,10 @@ let opice = sprites.create(img`
     ......255555555552.....
     ......225555555522.....
     ........22222222.......
-`, SpriteKind.Player)
+    `, SpriteKind.Player)
+opice.setStayInScreen(true)
+opice.setHitbox()
 controller.moveSprite(opice)
-
-
-
-
 scene.setBackgroundImage(img`
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -152,9 +152,44 @@ scene.setBackgroundImage(img`
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-`)
+    `)
+game.onUpdateInterval(800, function () {
+    sus = sprites.createProjectileFromSprite(img`
+        . 2 2 2 2 . 2 . . 2 . . 2 2 2 
+        . 2 . . . . 2 . . 2 . . 2 . . 
+        . 2 . . . . 2 . . 2 . . 2 . . 
+        . . 2 2 . . 2 . . 2 . . 2 2 . 
+        . . . . 2 . 2 . . 2 . . . 2 2 
+        . . . . 2 . 2 . . 2 . . . . 2 
+        . . . . 2 . 2 2 . 2 . . . . 2 
+        . 2 2 2 2 . 2 2 2 2 . . 2 2 2 
+        . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . 
+        `, null, randint(0, 150), randint(0, 150))
+    game.onUpdate(function () {
+        if (opice.overlapsWith(sus))  {
+            opice.destroy()
+            game.reset()
+        }
 
+    })
+game.onUpdateInterval(500, function() {
+    let enemy = sprites.create(assets.image`Enemy`, SpriteKind.Enemy)
+   
 
-game.onUpdate(function() {
-    opice.vy = 0
+    enemy.setPosition(randint(30, 300), 8)
+    enemy.setHitbox()
+    enemy.setVelocity(0, 50)
+    game.onUpdate(function () {
+        if (opice.overlapsWith(enemy)) {
+            opice.destroy()
+            game.reset()
+        }
+
+    })
+    
+    })
+})
+game.onUpdateInterval(200, function () {
+    info.changeScoreBy(1)
 })
