@@ -1,13 +1,68 @@
 {
-    "image1": {
-        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-        "mimeType": "image/x-mkcd-f4",
-        "displayName": "myImage"
-    },
     "image2": {
         "data": "hwQIAAgAAAAAAAAAUFVVAFB1AAAABQAAAAUAAFB1AABQVVUAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Enemy"
+    },
+    "image4": {
+        "data": "hwQOAAgAAAAAEQAAABEAABERAUAQEQEEEBFBQBARAQAQEQEAABEBAAARAQAAEQEAEBEBABAfAQAQUQAAAFAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Ptacek"
+    },
+    "image3": {
+        "data": "hwQIAA8AAAAzMwAAAAAAADMzAAAAADADALsAAAAA8AMAMwAAAAAwAwAwMzMzADADADAzMzMDswsAAAAAMzMzAwAAAAAwMzMA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Zizala"
+    },
+    "image1": {
+        "data": "hwQJAAcAAAAA4AAAAODuDgDgDg4A4A4AAOAOAODu7g7u7gAO4A4AAAAOAAA=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Doggo OwO"
+    },
+    "image6": {
+        "data": "hwQIAAsAAAAAkJndAAAAAACQCQAAAgAAAJCZmSICAAD4nZmZAAAAAPidmZkAAAAAiJCZmSICAAAAkAkAAAIAAACQmd0AAAAA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Trpaslik"
+    },
+    "image7": {
+        "data": "hwQLAAkAAAD/AAACAgAAAP//ACAAAAAA8PT/AgAAAADwRPQAAAAAAAD/9AAAAAAAAPBEAAAAAAAA8EQAAAAAAAD//wAAAAAAAPEAAAAAAAAAUAAAAAAAAABQAAAAAAAA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Krákoráček"
+    },
+    "image9": {
+        "data": "hwQIAAcAAAACAAAAIgAAACAiIgIgIlUCIFVVAiAiVQIgIiICAP//AA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Fuel"
+    },
+    "image10": {
+        "data": "hwQFAAkAAAAAREREBAAAAEAkIiIEAAAARCIiIgQAAABAJCIiBAAAAABEREQEAAAA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Munition"
+    },
+    "image8": {
+        "data": "hwQQAAoAAAAREREBAAAAABEREQEAAAAAERGIAQAAAAAAEYgIAAAAAAAQgQgRAAAAABCJEREAAAAAEIkREQAAAAAQgREBAAAAABCBEQEAAAAAEIkRAAAAAAAQiQgAAAAAABCBCAAAAAAAEIEIAAAAAAAQmQgAAAAAAAARCAAAAAAAABABAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Letadýlko"
+    },
+    "image11": {
+        "data": "hwQKAAoAAAAA0N0AAAAAAAC9290AAAAA0L3b3Q0AAADQ3d3d3QAAANDd3d3dAAAA3d3d3d0AAADd3d3d2wAAAN273b3bAAAA3d3dvdsAAADQ3d3dDQAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Meteor1"
+    },
+    "image5": {
+        "data": "hwQKAAsAAAAAAO4AAAAAAADu7u4AAAAA4O7u7u4AAADg7u7uzA4AAO7M7u7MDgAA7szu7u4OAADu7u7u7g4AAODu7u7uDgAAAODu7u4OAAAAAODu7gAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Meteor2"
+    },
+    "image12": {
+        "data": "hwQMAAgAAAAAdwBwcHcHd3B3d3d3dncHd3Z3AHd3dwB3d3cAd3Z3AHd2dwdwd3d3cHcHdwAAAHA=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Alien1"
+    },
+    "image13": {
+        "data": "hwQMAA0AAAAAAFAAUAUAAAAAUABVAAAAUFVQAAVQBQD1VQAFBVUAAFX1VVVVBQAAVfUAUAAAAAD1VVBVVQUAAFAFVVAAVQUAAAAAVQUAAAAAAFAFVQUAAAAAVQAFVQUAAFAFAAUAAAA=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Alien2"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",
